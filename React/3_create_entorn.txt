@@ -1,0 +1,12 @@
+1. in the terminal write the following command to create a new React project using Vite:
+   ```bash
+   npm create vite@latest my-react-app
+2. Navigate into the newly created project directory:
+   ```bash
+   cd my-react-app
+3. Install the project dependencies:
+   ```bash
+   npm install
+4. Start the development server:
+   ```bash
+   npm run dev

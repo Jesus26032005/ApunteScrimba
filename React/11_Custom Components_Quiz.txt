@@ -1,0 +1,25 @@
+1. What is a React component?
+its a function where we can create element with element in it, and configure for other things
+
+2. What's wrong with this code?
+```
+function myComponent() {
+    return (
+        <small>I'm tiny text!</small>
+    )
+}
+```
+the name of the function need the first letter in uppercase
+3. What's wrong with this code?
+```
+function Header() {
+    return (
+        <header>
+            <img src="./react-logo.png" width="40px" alt="React logo" />
+        </header>
+    )
+}
+
+root.render(Header())
+```
+we need to use the component with <Header />
